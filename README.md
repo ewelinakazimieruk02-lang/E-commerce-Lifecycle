@@ -1,2 +1,3 @@
-# SQL-Un-Joinable-Advanced-E-commerce-Lifecycle-Email-Analytics-
+# 🛒 Un-Joinable
+# SQL: E-commerce User & Email Analytics
 This project delivers a clean, end-to-end analytical solution designed for a global e-commerce platform. Using Google BigQuery for data processing and Looker Studio for visualization, the main goal is to connect user registration trends with email marketing performance. It provides a clear view of how account setup choices affect customer behavior.
