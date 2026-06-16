@@ -9,3 +9,8 @@ The project focuses on tracking user activity across different countries based o
 
 # III. Challenges and Highlights
 The biggest challenge was that account creations and email events happen at completely different times and frequencies. Using a traditional **JOIN** would have duplicated the data, inflating the marketing metrics. The standout feature of this project is avoiding this trap by using a **UNION ALL** approach with technical **NULL** placeholders to keep the data perfectly accurate. Additionally, to keep cloud compute costs low and ensure the **Looker Studio** report loads instantly, all heavy lifting - including ranking the **TOP 10** countries via **DENSE_RANK** window functions - is done directly inside BigQuery. This ensures stakeholders get a fast, honest report on their best-performing global markets.
+
+# IV. Technologies Used
+- BigQuery - data processing & SQL transformations
+- SQL - core logic & aggregation
+- Looker Studio – interactive dashboard
